@@ -1,0 +1,287 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+
+html{
+                                                                                                                                                    scroll-behavior: smooth;
+                                                                                                                                                    background-color: #ffffff;
+                                                                                                                                                    font-size: 100%;
+                                                                                                                                                    max-width: 100% !important;
+                                                                                                                                                }
+.navbar-nav > li{
+    margin-left:30px;
+}
+header{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.nav-dark,.navbar-nav, .nav-link.active{
+    color: #FFD900!important;
+}
+.nav-dark,.navbar-nav, .nav-link:hover {
+    color: #FFD900 !important;
+}
+nav {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.homepage{
+    height: 100%;
+    margin-top: 180px;
+    margin-bottom: 220px;
+}
+
+h1{
+    font-family: 'Alata', sans-serif;
+    font-size: 6em;
+    font-weight: bolder;
+    color:  #FFD900;
+}
+h3{
+    font-family: 'Alata', sans-serif;
+    font-weight: bold;
+}
+h2{
+    font-family: 'Alata', sans-serif;
+    font-weight: bold;
+}
+.sectionheading{
+    background-color: #FFD900;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.abouttext{
+    color: black;
+    font-family: 'Alata', sans-serif;
+    font-size: 1rem;
+    margin: 2rem 2rem;
+    font-weight: regular;
+}
+.button{
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+    border: #000000 3px solid;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top:20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+.button:hover{
+    background:#FFD900;
+    color:#000000;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+}
+.link{
+    text-decoration: none!important;
+}
+
+footer{
+    height: 40vh;
+    background-color: #000000;
+    margin-top: 8rem!important;
+}
+.footerimg{
+    width: 2.5rem;
+    opacity: 70%;
+}
+.portfolio{
+    text-align: center;
+    text-decoration: none!important;
+    color: white;
+}
+.footerimg:hover{
+    opacity: 100%;
+    color: white;
+}
+p.port:hover{
+    opacity: 100%!important;
+    color: white;
+}
+
+.pic{
+    width: 100%;
+    padding-right: 20%;
+    padding-bottom: 10%;
+    height: 300px;
+    opacity: 100%;
+}
+
+.foot{
+    font-size: 0.9rem;
+    color: #999898;
+}
+
+h4{
+    font-size: 1rem;
+}
+.arrow{
+    text-decoration: none;
+    color: #000000!important;
+}
+.arrow:hover{
+    color: #FFD900!important;
+}
+.part{
+    margin-bottom: 50px;
+}
+.no-padding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.flex-bottom {
+    display: flex;
+    align-items: flex-end;
+}
+.img-center{
+    margin: auto;
+    display: block;
+}
+.title {
+    margin: auto;
+    width: 80%;
+    font-family: 'Raleway', serif;
+    line-height: 37px;
+    font-size: 22px;
+    color: #0c0c0c;
+}
+.bio{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+}
+.part2{
+    font-size: 15px;
+    color: #2E2E40;
+}
+.under{
+    font-family: 'Amiri', serif;
+    font-size: 30px;
+    color: #515050;
+}
+
+
+*:focus {
+    outline: none;
+}
+
+#login-box {
+    position: relative;
+    margin: 5% auto;
+    width: 600px;
+    height: 400px;
+    background: #FFF;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+h6{
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+input[type="text"]
+{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #AAA;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+input[type="text"]:focus,
+{
+    border-bottom: 2px solid #FFD900;
+    color: #FFD900;
+    transition: 0.2s ease;
+}
+
+input[type="submit"] {
+    margin-top: 28px;
+    width: 120px;
+    height: 32px;
+    background: #FFD900;
+    border: none;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-family: 'Alata', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    opacity: 0.8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+    opacity: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+}
+
+/**************************
+  DEFAULT BOOTSTRAP STYLES
+**************************/
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 10px 16px;
+}
+
+.btn-lg {
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #3276b1;
+    border-color: #285e8e;
+}
