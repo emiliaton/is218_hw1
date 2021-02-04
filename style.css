@@ -1,12 +1,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
 
-html{
+html {
                                                                                                                                                     scroll-behavior: smooth;
-                                                                                                                                                    background-color: #ffffff;
+                                                                                                                                                    background-color: #FFFFFF;
                                                                                                                                                     font-size: 100%;
-                                                                                                                                                    max-width: 100% !important;
-                                                                                                                                                }
+                                                                                                                                                    max-width: 100% !important}
 .navbar-nav > li{
     margin-left:30px;
 }
@@ -59,7 +58,7 @@ h2{
     font-family: 'Alata', sans-serif;
     font-size: 1rem;
     margin: 2rem 2rem;
-    font-weight: regular;
+    font-weight: normal;
 }
 .button{
     font-size: 18px;
@@ -172,7 +171,7 @@ h4{
     outline: none;
 }
 
-#login-box {
+#subscribe-box-box {
     position: relative;
     margin: 5% auto;
     width: 600px;
@@ -204,7 +203,7 @@ input[type="text"]
     transition: 0.2s ease;
 }
 
-input[type="text"]:focus,
+input[type="text"]:focus
 {
     border-bottom: 2px solid #FFD900;
     color: #FFD900;
