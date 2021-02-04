@@ -171,7 +171,7 @@ h4{
     outline: none;
 }
 
-#subscribe-box-box {
+#subscribe-box {
     position: relative;
     margin: 5% auto;
     width: 600px;
@@ -217,7 +217,7 @@ input[type="submit"] {
     background: #FFD900;
     border: none;
     border-radius: 2px;
-    color: #FFFFFF;
+    color: #0c0c0c;
     font-family: 'Alata', sans-serif;
     font-weight: 500;
     text-transform: uppercase;
